@@ -1,7 +1,7 @@
 import React from "react";
 import ContentCardsSection from "./../components/ContentCardsSection";
 
-function AllBlogsPage(props) {
+function SingleBlog(props) {
 
   return (
     <ContentCardsSection
@@ -16,4 +16,4 @@ function AllBlogsPage(props) {
   );
 }
 
-export default AllBlogsPage;
+export default SingleBlog;
