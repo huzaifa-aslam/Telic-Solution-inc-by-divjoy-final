@@ -33,6 +33,7 @@ function IndexPage(props) {
         ]}
       />
       <About
+        id={'about'}
         bg="info"
         textColor="white"
         size="md"

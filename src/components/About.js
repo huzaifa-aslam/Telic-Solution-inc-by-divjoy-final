@@ -6,6 +6,7 @@ import SectionHeader from "./SectionHeader";
 function About(props) {
   return (
     <Section
+    id="about"
       bg={props.bg}
       textColor={props.textColor}
       size={props.size}

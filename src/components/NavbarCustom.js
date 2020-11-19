@@ -3,10 +3,12 @@ import Navbar from "react-bootstrap/Navbar";
 import Container from "react-bootstrap/Container";
 import { LinkContainer } from "react-router-bootstrap";
 import Nav from "react-bootstrap/Nav";
+import './NavbarCustom.css'
 
 function NavbarCustom(props) {
+  
   return (
-    <Navbar bg={props.bg} variant={props.variant} expand={props.expand}>
+    <Navbar className="fixedNavbar" bg={props.bg} variant={props.variant} expand={props.expand}>
       <Container>
         <LinkContainer to="/">
           <Navbar.Brand>
