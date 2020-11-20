@@ -3,7 +3,7 @@ import Carousel from "react-bootstrap/Carousel";
 
 function CarouselSection(props) {
   return (
-    <Carousel>
+    <Carousel className="mt-5">
       {props.items.map((item, index) => (
         <Carousel.Item key={index}>
           <img className="d-block w-100" src={item.image} alt={item.caption} />

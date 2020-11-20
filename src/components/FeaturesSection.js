@@ -21,7 +21,7 @@ function FeaturesSection(props) {
           size={2}
           spaced={true}
         />
-        <Card>
+        <Card >
           <Features
             columns={2}
             imageRatio="4by3"

@@ -8,7 +8,7 @@ function Features2(props) {
     <Row className="justify-content-center">
       {props.items.map((item, index) => (
         <Col xs={12} lg={4} className="px-4" key={index}>
-          <div className="Features2__feature py-3 shadow border pl-2 pr-2">
+          <div className="Features2__feature onHover py-3 shadow border pl-2 pr-2">
             <div className={`text-${item.iconColor} display-4 mb-4`}>
               <i className={`${item.iconClass}`} />
             </div>

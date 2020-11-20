@@ -4,6 +4,7 @@ import NavbarCustom from "./../components/NavbarCustom";
 import IndexPage from "./index";
 import WorkHistoryPage from "./work history";
 import AllBlogsPage from "./all-blogs";
+import SingleBlog from './singleBlog'
 import PageNotFoundJsPage from "./pagenotfound.js";
 import { Switch, Route, Router } from "./../util/router.js";
 import FirebaseActionPage from "./firebase-action.js";
@@ -13,6 +14,8 @@ import "./../util/analytics.js";
 import { ProvideAuth } from "./../util/auth.js";
 
 function App(props) {
+
+
   return (
     <ProvideAuth>
       <Router>
@@ -30,6 +33,7 @@ function App(props) {
             <Route exact path="/Work History" component={WorkHistoryPage} />
 
             <Route exact path="/all-blogs" component={AllBlogsPage} />
+            <Route exact path="/all-blogs/:blogID/" component={SingleBlog} />
 
             <Route
               exact

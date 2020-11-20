@@ -19,7 +19,7 @@ function TeamBiosSection(props) {
           subtitle={props.subtitle}
           size={2}
           spaced={true}
-          className="text-center"
+          className="text-center text-white"
         />
         <TeamBios
           items={[

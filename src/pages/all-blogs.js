@@ -2,6 +2,7 @@ import React from "react";
 import ContentCardsSection from "./../components/ContentCardsSection";
 
 function AllBlogsPage(props) {
+
   return (
     <ContentCardsSection
       bg="white"
